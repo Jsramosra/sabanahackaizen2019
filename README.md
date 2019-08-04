@@ -7,9 +7,11 @@ Tener instalado en su ordenador Node.js
 Usa el apartado de  [descarga](https://github.com/Jsramosra/sabanahackaizen2019/archive/master.zip), para obtener el comprimido del proyecto.
 
 ```bash
-pip install foobar
+npm install -g Cordova
 ```
-
+```bash
+npm install -g Ionic
+```
 ## Uso
 
 ```bash
