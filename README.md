@@ -1,6 +1,5 @@
 # FelicidadFinanciera SabanaHack2019
 
-FelicidadFinanciera es un softwate
 ## Instalación
 Requerimientos.
 Tener instalado en su ordenador Node.js
