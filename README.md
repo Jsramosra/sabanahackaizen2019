@@ -1,29 +1,22 @@
-# Foobar
+# FelicidadFinanciera SabanaHack2019
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+FelicidadFinanciera es un softwate
+## Instalación
+Requerimientos.
+Tener instalado en su ordenador Node.js
+Usa el apartado de  [descarga](https://github.com/Jsramosra/sabanahackaizen2019/archive/master.zip), para obtener el comprimido del proyecto.
 
 ```bash
 pip install foobar
 ```
 
-## Usage
+## Uso
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+ionic serve
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[Common Creative]()
