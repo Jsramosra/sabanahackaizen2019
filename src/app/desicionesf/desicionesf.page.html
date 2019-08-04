@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="/tabs"></ion-back-button>
+        </ion-buttons>
+    <ion-title>Presupuesto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+   <ion-grid>
+        <ion-row class="ion-margin-top">
+            <p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;</p>
+            <a href="/desicionesf"><img width="120px" height="100px" src="../assets/Recurso 3.png"></a>
+          <ion-col>
+
+              <ion-item>
+                  <ion-label position="floating">Ingresos</ion-label>
+                  <ion-input></ion-input>
+                </ion-item>
+              <ion-item class="ion-margin-top">
+                  <ion-label>Categorías</ion-label>
+                  <ion-select value="red" okText="Aceptar" cancelText="Cancelar">
+                    <ion-select-option value="red">Alimentación</ion-select-option>
+                    <ion-select-option value="rad">Cuentas y pagos</ion-select-option>
+                    <ion-select-option value="rod">Casa</ion-select-option>
+                    <ion-select-option value="rud">Transporte</ion-select-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item class="ion-margin-top">
+                    <ion-label position="floating">Valor categoría</ion-label>
+                    <ion-input></ion-input>
+                  </ion-item>
+                <ion-text color="light">
+                <a (click)="go()" class="ion-margin-top">+ Nuevo</a>
+                </ion-text>
+          </ion-col>
+        </ion-row>
+        <ion-row class="ion-justify-content-center" class="ion-margin">
+            <img height="180px" width="281px" src="../assets/recordatorio-01.png">
+            <ion-toggle></ion-toggle>
+        </ion-row>
+      </ion-grid>
+</ion-content>
